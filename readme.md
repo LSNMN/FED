@@ -56,12 +56,11 @@ Uitleg detailpagina: Ook goed opweg. Alleen het probleem dat de pagina groter li
 
 -samen met je groepje opstellen-
 
-| Lisa Nijman        | Kai van Wezel      | Nienke de Keijzer  | Jeroen van Hulst|
-| ---                | ---                | ---                | ---              |
-| Navigatie, slider  | en dit             | en ik dit          | en dan ik dat    |
-| Social buttons flexbox     | dit als er tijd is | nog een punt       | dit wil ik zeker |
-| Aanpassen van lijst|
-Met kleuren.         | ...                | ...                | ...              |
+| Lisa Nijman                     | Kai van Wezel                           | Nienke de Keijzer             | Jeroen van Hulst |
+| ---                             | ---                                     | ---                           | ---              |
+| Navigatie, slider               | Verschil tussen zijn pagina en origineel| Overall look van wat ik nu heb| en dan ik dat    |
+| Social buttons flexbox          | Semantiek                               | Semantiek                     | dit wil ik zeker |
+| Aanpassen van lijst met kleuren.| Bronnen                                 | Beste aanpak voor straks      | ...              |
 
 ### Verslag van meeting
 
