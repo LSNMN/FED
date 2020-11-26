@@ -56,11 +56,11 @@ Uitleg detailpagina: Ook goed opweg. Alleen het probleem dat de pagina groter li
 
 -samen met je groepje opstellen-
 
-| Lisa Nijman                     | Kai van Wezel                           | Nienke de Keijzer             | Jeroen van Hulst |
-| ---                             | ---                                     | ---                           | ---              |
-| Navigatie, slider               | Verschil tussen zijn pagina en origineel| Overall look van wat ik nu heb| en dan ik dat    |
-| Social buttons flexbox          | Semantiek                               | Semantiek                     | dit wil ik zeker |
-| Aanpassen van lijst met kleuren.| Bronnen                                 | Beste aanpak voor straks      | ...              |
+| Lisa Nijman                     | Kai van Wezel                           | Nienke de Keijzer             | Jeroen van Hulst                             |
+| ---                             | ---                                     | ---                           | ---                                          |
+| Navigatie, slider               | Verschil tussen zijn pagina en origineel| Overall look van wat ik nu heb| Website niet te moeielijk voor blauw? andere?|
+| Social buttons flexbox          | Semantiek                               | Semantiek                     | Hoe is de code tot nu toe?                   |
+| Aanpassen van lijst met kleuren.| Bronnen                                 | Beste aanpak voor straks      | Knoppen formaat op mobile anders dan desktop |
 
 ### Verslag van meeting
 
