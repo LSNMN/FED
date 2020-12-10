@@ -202,7 +202,12 @@ figcaption {
 
 section:nth-of-type(3) {
     position: relative;
-    top: 45em;
+    top: 50em;
+}
+
+section:nth-of-type(4) {
+    position: relative;
+    top: 52em;
 }
 
 /*footer*/
@@ -210,7 +215,7 @@ section:nth-of-type(3) {
 footer {
     position: relative;
     bottom: 0;
-    top: 50em;
+    top: 55em;
 }
 
 footer form input:first-of-type,
