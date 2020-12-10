@@ -12,6 +12,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. https://yoksel.github.io/flex-cheatsheet/
 5.https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
 6. https://css-tricks.com/perfect-full-page-background-image/
+7. https://freefrontend.com/css-text-animations/
+8. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+9. https://css-tricks.com/custom-list-number-styling/
+10. https://css-tricks.com/almanac/properties/t/transform/
+11. https://css-tricks.com/almanac/properties/b/background-position/
+12. https://codepen.io/dannievinther/pen/NvZjvz?editors=1100
+13. https://www.youtube.com/watch?v=br-0i3U1VCA&feature=youtu.be
+14.
 
 
 
@@ -33,9 +41,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+Opnieuw begonnen met mijn html en css. Alles compacter en met minder classes weergegeven. Animaties zijn nog lastig en ook de javascript werkt nog niet helemaal. Ik heb de footer veranderd en de ol gestyled op de detail pagina.
 
+<img src="images/voortganghome2.png">
+<img src="images/voortgangdetail2.png">
 
+### Agenda voor Meeting
+|Lisa Nijman            |Kai van Wezel                  |Nienke de Keijzer              |Jeroen van Hulst
+|---                    |---                            |---                            |---
+|Tips Js                |Verwachting Surface plane      |Advies JS & Css                |Footer
+|Tips Animatie          |JS Libraries                   |x                              |Carousel
+|Nav werkende           |x                              |x                              |Code ok
+
+### Verslag van meeting
 
 ## Voortgang 1 (week 3)
 
@@ -64,7 +83,7 @@ Uitleg detailpagina: Ook goed opweg. Alleen het probleem dat de pagina groter li
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Aantal dingen losten zich vanzelf op en volgens Jesse was de animation die ik erin wilde zetten te lastig. Verder moest ik het stijlen van de ol maar even googlen.
 
 
 

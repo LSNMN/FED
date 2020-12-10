@@ -1,72 +1,131 @@
 html {
     font-family: 'Roboto Mono', monospace;
-    background-color: white;
-    max-height: 100%;
+    height: 100%;
+}
+
+body {
     max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    max-width: 100%;
+    height: 50px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/*hamburger icon*/
+.ham {
+    position: absolute;
+    z-index: 1000;
+    top: .5em;
+    left: 1em;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: transparent;
+    /*icoon*/
+    background-image: url(../images/Hamburger.png);
+    background-size: 100%;
+}
+
+/*logo in header*/
+header img {
+    width: 20em;
+    margin-left: 3em;
+}
+
+/*nav text*/
+nav ul:first-of-type {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*nav socialimg*/
+nav ul:nth-of-type(2) {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav ul li img {
+    max-width: 1.5em;
+    max-height: 1.5em;
+    margin: .5em;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    /* hide the menu above the screen by default */
+    transform: translateX(-100%);
+    /* transition adds a little animation when sliding in and out the menu */
+    transition: transform 0.2s ease;
+}
+
+/* change ham image to close */
+.showClose {
+    background-image: url("../images/kruis.jpg");
+}
+
+/*going to be called with javascript and show menu*/
+.showNav {
+    transform: translateX();
 }
 
 main {
-    max-width: 100%;
-}
-
-h2 {
-    font-size: 38px;
-    letter-spacing: 5px;
-    text-align: center;
-    line-height: 1;
-    font-weight: 300;
-    text-transform: lowercase;
+    background-image: url(../images/startfoto.png);
+    background-repeat: no-repeat;
+    background-position: -10em 0em;
 
 }
 
-.albumlist h2 {
-    text-transform: uppercase;
+.detail {
+    background: none;
+    background-color: white;
 }
 
-h3 {
-    text-align: left;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    font-weight: 100;
-    text-transform: uppercase;
-    font-size: 18px;
-
-}
-
-#bg {
-    top: 0;
-    left:0;
-
-    min-width: 100%;
-    min-height: 100%;
-
-}
-
-
-
-#startpage a {
+/*button listen now*/
+main section:first-of-type h2 a,
+.detail a {
     font-size: 16px;
-    background-color: #FFFFFF;
+    background-color: white;
     padding: 2px 10px;
     width: 235px;
     height: 53px;
-    display: flex;
+    text-align: center;
+    line-height: 3;
     text-transform: uppercase;
-     color: #000;
+    color: black;
     font-weight: 700;
-    z-index: 1;
-     border: 2px solid #000;
+    border: 2px solid #000;
     border-radius: 25px;
     letter-spacing: 0;
     position: absolute;
-    justify-content: center;
-    align-items: center;
-    top:33em;
-    left: 3em;
-
+    bottom: 5em;
+    left: 4em;
 }
 
-#startpage img:last-of-type {
+/*white logo*/
+main section:first-of-type img {
     position: absolute;
     z-index: 1;
     right: 1.5em;
@@ -74,105 +133,159 @@ h3 {
     max-width: 50%
 }
 
+
+.detail section:first-of-type img {
+    position: relative;
+    max-width: 100%;
+    top: 3em;
+    left: 0;
+    margin-bottom: 2em;
+}
+
+.detail a {
+    bottom: 2em;
+}
+
+
+/*section with merch*/
+h2 {
+    font-size: 38px;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 1;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+
+section:nth-of-type(2) {
+    position: relative;
+    top: 45em;
+}
+
+section:nth-of-type(2) a,
+section:nth-of-type(3) a {
+    font-size: 1em;
+    color: black;
+    position: relative;
+    left: 8.5em;
+}
+
+.detail section:nth-of-type(2),
+.detail section:nth-of-type(3) {
+    top: 5em;
+}
+
+.detail footer {
+    top: 6em;
+}
+
+ol {
+    list-style: none;
+}
+
+ol li {
+    counter-increment: my-awesome-counter;
+    font-weight: 400;
+}
+
+ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: pink;
+    font-weight: 600
+}
+
+
 figcaption {
     text-align: center;
 }
 
-
-
-ol li {
-    font-weight: 400;
-    line-height: 1.5;
-    color: #333;
-    font-size: 18px;
-}
-
-ol {
-    margin-bottom: 6em;
-}
-
-img {
-    max-width: 100%;
-}
-
-.musicdetail img {
+section:nth-of-type(3) {
     position: relative;
-    align-content: center;
-    justify-content: center;
-    max-width: 100%;
-    margin:0;
-    padding: 1em;
-    padding-bottom: .2em;
+    top: 45em;
+}
+
+/*footer*/
+
+footer {
+    position: relative;
+    bottom: 0;
+    top: 50em;
+}
+
+footer form input:first-of-type,
+footer form input:nth-of-type(2) {
+    width: 100%;
+    border: none;
+    border-bottom: .1em solid black;
+    background: none;
+}
+
+footer form p {
+    text-align: center;
+}
+
+footer form p:first-of-type {
+    font-size: 1.3em;
+    font-weight: 200;
 
 }
 
+footer p:last-of-type {
+    padding: 2em;
+    margin: 0;
+}
 
+footer form input:nth-of-type(3),
+footer form input:nth-of-type(4),
+footer form label:nth-of-type(3),
+footer form label:nth-of-type(4) {
+    margin-left: 3em;
 
+}
 
-
-
-.music figure a,
-.albumlist a {
+input[type=submit] {
     font-size: 16px;
-    background-color: #FFFFFF;
+    background: none;
     padding: 2px 10px;
     width: 235px;
     height: 53px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    line-height: 3;
     text-transform: uppercase;
-    color: #000;
+    color: black;
     font-weight: 700;
     z-index: 1;
-    position: relative;
     border: 2px solid #000;
     border-radius: 25px;
     letter-spacing: 0;
-    overflow: hidden;
-    transition: .3s ease-in-out all;
-    text-decoration: none;
+    position: relative;
+    left: 4em;
+
 }
 
-a {
+/*social icons*/
+footer ul:first-of-type {
+    list-style: none;
     display: flex;
+    flex-direction: row;
     margin: 0;
-    align-content: center;
+    padding: 1em;
     justify-content: center;
-    text-transform: uppercase;
 }
 
-
-
-
-footer {
-    background-color: lightpink;
-    max-width: 100%;
-    margin: 0;
+footer ul li img {
+    max-width: 1.5em;
+    max-height: 1.5em;
+    margin: .5em;
 }
 
-.socialfooter a {
-    max-width: 25px;
-    max-height: 32px;
-}
-
-.copyright {
+/*text in footer*/
+footer ul:nth-of-type(2) {
     font-weight: 700;
     list-style: none;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
     padding: .5em;
-}
-
-label {
-    font-size: 14px;
-    color: black;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    text-align: left;
-    display: block;
-    transition: .2s ease-in-out;
-    transition-delay: 0s;
 }
