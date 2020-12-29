@@ -8,42 +8,42 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="scripts/script.js">
+
 </head>
 
 <body>
     <header>
         <button class="ham"></button>
         <img src="images/logo.png" alt="logomgk">
-
+        <nav>
+            <ul>
+                <li>Music</li>
+                <li>Videos</li>
+                <li>Merch</li>
+                <li>Subscribe</li>
+            </ul>
+            <ul>
+                <li><img src="images/facebookwhite.png" alt="Facebook"></li>
+                <li><img src="images/instagramwhite.png" alt="Instagram"></li>
+                <li><img src="images/spotifywhite.png" alt="Spotify"></li>
+                <li><img src="images/twitterwhite.png" alt="Twitter"></li>
+                <li><img src="images/applemusicwhite.png" alt="Apple music"></li>
+                <li><img src="images/youtubewhite.png" alt="Youtube"></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li>Music</li>
-            <li>Videos</li>
-            <li>Merch</li>
-            <li>Subscribe</li>
-        </ul>
-        <ul>
-            <li><img src="images/facebook.png" alt="Facebook"></li>
-            <li><img src="images/instagram.png" alt="Instagram"></li>
-            <li><img src="images/spotify.png" alt="Spotify"></li>
-            <li><img src="images/twitter.png" alt="Twitter"></li>
-            <li><img src="images/apple%20music.webp" alt="Apple music"></li>
-            <li><img src="images/youtube.png" alt="Youtube"></li>
-        </ul>
-    </nav>
+
     <main>
+        <!--section first of type -->
         <section>
 
             <h2><a href="">listen now</a></h2>
 
             <img src="images/logocompleet.png" alt="">
         </section>
-
-        <section class="merch">
-            <div class="block"></div>
+        <!--section second of type -->
+        <section>
             <h2>tickets to my downfall pre-order</h2>
             <figure><img src="images/MGK_ticketstomydownfallmedia-signedcdOFFICIALARTWORK_grande.png" alt="">
                 <figcaption>
@@ -68,59 +68,61 @@
 
             <a href="https://machinegunkelly.manheadmerch.com/">All Merch</a>
         </section>
-
+        <!--section 3th of type -->
         <section>
             <h2>music</h2>
             <img src="images/actinglikethat.jpg" alt="acting like that">
 
+            <a href="">All Music</a>
+
 
         </section>
+
+        <!--section 4th of type -->
         <section>
             <h2>videos</h2>
-            <iframe src="https://www.youtube.com/watch?v=0tn6nWYNK3Q&feature=emb_title" frameborder="0"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0tn6nWYNK3Q" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>machine gun kelly ft. halsey - forget me too [official music video]</p>
 
             <a href="https://www.machinegunkelly.com/videos">All videos</a>
         </section>
 
-
-        <footer>
-            <h2>Subscribe</h2>
-            <form action="submit">
-                <label for="email">email address *</label><br />
-                <input type="text" id="email" name="email"><br />
-                <label for="country">country *</label> <br />
-                <input type="text" id="country" name="country"><br />
-
-                <p>subscribe to email updates from:</p><br />
-                <input type="checkbox" id="mgk1" name="mgk1" value="Machine Gun Kelly">
-                <label for="mgk1">Machine Gun Kelly</label><br />
-                <input type="checkbox" id="mgk1" name="mgk2" value="interscope records">
-                <label for="mgk2">Interscope records</label>
-                <p>By submitting this form, you agree to the <strong>Universal Music Group Privacy Policy.</strong></p>
-                <input type="submit" value="submit">
-            </form>
-
-
-            <ul>
-                <li><img src="images/facebook.png" alt="facebook"></li>
-                <li><img src="images/instagram.png" alt="Instagram"></li>
-                <li><img src="images/spotify.png" alt="Spotify"></li>
-                <li><img src="images/twitter.png" alt="Twitter"></li>
-                <li><img src="images/apple%20music.webp" alt="Apple music"></li>
-                <li><img src="images/youtube.png" alt="Youtube"></li>
-            </ul>
-            <ul>
-                <li>interscope records</li>
-                <li>privacy policy</li>
-                <li>terms & conditions</li>
-                <li>do not sell my personal</li>
-                <li>information</li>
-            </ul>
-
-        </footer>
     </main>
+    <footer>
+        <h2>Subscribe</h2>
+        <form>
+            <label for="email">email address *</label><br />
+            <input type="text" id="email" name="email"><br />
+            <label for="country">country *</label> <br />
+            <input type="text" id="country" name="country"><br />
 
-</body>
+            <p>subscribe to email updates from:</p><br />
+            <input type="checkbox" id="mgk1" name="mgk1" value="Machine Gun Kelly">
+            <label for="mgk1">Machine Gun Kelly</label><br />
+            <input type="checkbox" id="mgk2" name="mgk2" value="interscope records">
+            <label for="mgk2">Interscope records</label>
+            <p>By submitting this form, you agree to the <strong>Universal Music Group Privacy Policy.</strong></p>
+            <p id="submit">SUBMIT</p>
+        </form>
 
-</html>
+
+        <ul>
+            <li><img src="images/facebook.png" alt="facebook"></li>
+            <li><img src="images/instagram.png" alt="Instagram"></li>
+            <li><img src="images/spotify.png" alt="Spotify"></li>
+            <li><img src="images/twitter.png" alt="Twitter"></li>
+            <li><img src="images/apple%20music.webp" alt="Apple music"></li>
+            <li><img src="images/youtube.png" alt="Youtube"></li>
+        </ul>
+        <ul>
+            <li>interscope records</li>
+            <li>privacy policy</li>
+            <li>terms & conditions</li>
+            <li>do not sell my personal</li>
+            <li>information</li>
+        </ul>
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body></html>

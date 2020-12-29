@@ -19,7 +19,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 11. https://css-tricks.com/almanac/properties/b/background-position/
 12. https://codepen.io/dannievinther/pen/NvZjvz?editors=1100
 13. https://www.youtube.com/watch?v=br-0i3U1VCA&feature=youtu.be
-14.
+14.https://www.youtube.com/watch?v=9YffrCViTVk
+15.https://css-tricks.com/almanac/selectors/h/hover/
+16. https://css-tricks.com/zooming-background-images/
+17. https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
 
 
 
@@ -35,8 +38,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+HTML en Css nog een na gelopen, maar geen drastische/nieuwe dingen toegevoegd.
+<img src="images/voortganghome2.png">
+<img src="images/voortgangdetail2.png">
 
+### Agenda voor Meeting
+
+Lisa Nijman                         | Kai van Wezel                 | Jeroen van Hulst |
+|---                                |---                            |---
+|Tips vragen toevoegingen css + js  | Doorlopen website tot nu toe  | Check HTML
+
+### Verslag van meeting
+Tip gekregen vooral dingen toevoegen die er niet zijn. Veel kleine detail toevoegen zoals hover en focus states. Laat wat dingen draaien of veranderen.
 
 
 ## Voortgang 2 (week 5)
@@ -55,6 +69,7 @@ Opnieuw begonnen met mijn html en css. Alles compacter en met minder classes wee
 |Nav werkende           |x                              |x                              |Code ok
 
 ### Verslag van meeting
+Javascript probleem opgelost. Nav werkt nu wel goed. Met dank aan Danny. HTML & CSS erg netjes. Vooruitgang ten opzichte van vorige keer.
 
 ## Voortgang 1 (week 3)
 
@@ -98,7 +113,7 @@ Aantal dingen losten zich vanzelf op en volgens Jesse was de animation die ik er
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** Mijn startniveau is rood, met soms een klein beetje zwart. Ik verwacht in dit blok ook vooral rood aan te houden, met mogelijk af en toe een beetje zwarte piste tussendoor.
+**Je startniveau:** Mijn startniveau is blauw/rood. Ik verwacht in dit blok ook vooral rood & blauw aan te houden, met mogelijk af en toe een beetje zwarte piste tussendoor om te proberen.
 
 **Je focus:** Ik kies voor extra aandacht aan de surface-laag.
 
