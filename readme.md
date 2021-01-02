@@ -32,8 +32,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Ik vond het lastig om zelf dingen te bedenken die ik kon toevoegen om de site uitgebreider te maken. Wat goed ging was het experimenteren met verschillende mogelijkheden voor focus, hover en form.
 
 **Screenshot(s):**
+<img src="images/homepagina4.png">
+<img src="images/detailpagina4.png">
 
--screenshot(s) van je eindresultaat-
 
 
 
