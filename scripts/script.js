@@ -21,3 +21,9 @@ document.getElementById('submit').onclick = function changeContent() {
     document.getElementById('submit').style = "height: 6em;";
 }
 
+var draaienvanlogo = document.querySelector(" nav ul li img");
+draaienvanlogo.addEventListener("click", draaien);
+
+function draaien() {
+ draaienvanlogo.classList.toggle("draaien");
+}

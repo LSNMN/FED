@@ -3,8 +3,13 @@ html {
     height: 100%;
 }
 
+/*Background image homepage*/
 body {
     max-width: 100%;
+    background-image: url(../images/startfoto.png);
+    background-repeat: no-repeat;
+    background-position: -10em 0em;
+    background-size: cover;
 }
 
 /*all images*/
@@ -12,13 +17,13 @@ img {
     max-width: 100%;
 }
 
+/*hover image*/
 img:hover {
     transform: scale(.8);
     transition: all .5s;
 }
 
-
-
+/*With nav hamburger en logo*/
 header {
     display: flex;
     position: fixed;
@@ -61,8 +66,18 @@ nav ul:first-of-type {
     margin-top: 7em;
 }
 
+/*hover nav tekst*/
+nav ul:first-of-type li:hover {
+    color: pink;
+    cursor: progress;
+}
 
-/*nav socialimg*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*nav socialimages*/
 nav ul:nth-of-type(2) {
     list-style: none;
     display: flex;
@@ -71,7 +86,9 @@ nav ul:nth-of-type(2) {
 
 }
 
-nav ul li img {
+/*size social media icons in nav & footer*/
+nav ul li img,
+footer ul li img {
     max-width: 1.5em;
     max-height: 1.5em;
     margin: .5em;
@@ -85,7 +102,7 @@ nav {
     height: 100vh;
     overflow: hidden;
     color: white;
-    /* hide the menu above the screen by default */
+    /* hide the menu left of the screen by default */
     transform: translateX(-100%);
     /* transition adds a little animation when sliding in and out the menu */
     transition: transform 0.2s ease;
@@ -94,7 +111,6 @@ nav {
 /* change ham image to close */
 .showClose {
     background-image: url("../images/kruis.png");
-
 }
 
 /*going to be called with javascript and show menu*/
@@ -102,19 +118,25 @@ nav {
     transform: translateX(0);
 }
 
-main {
-    background-image: url(../images/startfoto.png);
-    background-repeat: no-repeat;
-    background-position: -10em 0em;
+/*pushing down*/
+section:nth-of-type(2),
+section:nth-of-type(3),
+section:nth-of-type(4) {
+    position: relative;
+}
 
+/*homepage*/
+section:nth-of-type(2) {
+    margin-top: 45em;
 }
 
 .detail {
     background: none;
     background-color: white;
+    background-size: cover;
 }
 
-/*button listen now*/
+/*button 'listen now' & 'spotify'*/
 main section:first-of-type h2 a,
 .detail a {
     font-size: .4em;
@@ -136,12 +158,24 @@ main section:first-of-type h2 a,
     text-decoration-line: none;
 }
 
+/*detailpage different position button*/
+.detail a {
+    position: relative;
+    width: 15em;
+    padding: .5em;
+    font-size: 1em;
+    left: .2em;
+    top: 1em;
+    bottom: 2em;
+}
+
 main section h2 a:hover,
 .detail a:hover {
     color: white;
     background-color: black;
 }
 
+/*'all ...' buttons*/
 a {
     color: black;
     display: flex;
@@ -159,10 +193,10 @@ main section:first-of-type img {
     z-index: 1;
     right: 1.5em;
     top: 10em;
-    max-width: 50%
+    max-width: 50%;
 }
 
-
+/*albumcover*/
 .detail section:first-of-type img {
     position: relative;
     max-width: 100%;
@@ -171,14 +205,6 @@ main section:first-of-type img {
     margin-bottom: 2em;
 }
 
-.detail a {
-    bottom: 2em;
-}
-
-
-
-
-/*section with merch*/
 h2 {
     font-size: 2.4em;
     letter-spacing: .3em;
@@ -192,15 +218,9 @@ h2:hover {
     text-shadow:
         0 0 0.125em grey,
         0 0 0.25em grey,
-        0 0 0.5em grey
 }
 
-
-section:nth-of-type(2) {
-    position: relative;
-    top: 45em;
-}
-
+/*video*/
 iframe {
     position: relative;
     width: 100%;
@@ -214,11 +234,15 @@ section:nth-of-type(4) p {
 
 .detail section:nth-of-type(2),
 .detail section:nth-of-type(3) {
-    top: 5em;
+    position: relative;
+    top: 3em;
+    margin: 0;
 }
 
 .detail footer {
-    top: 6em;
+    position: relative;
+    top: 1em;
+    bottom: 0;
 }
 
 ol {
@@ -246,22 +270,10 @@ figcaption {
     text-align: center;
 }
 
-section:nth-of-type(3) {
-    position: relative;
-    top: 50em;
-}
-
-section:nth-of-type(4) {
-    position: relative;
-    top: 52em;
-}
-
 /*footer*/
-
 footer {
     position: relative;
     bottom: 0;
-    top: 55em;
 }
 
 footer form input:first-of-type,
@@ -279,7 +291,6 @@ footer form p {
 footer form p:first-of-type {
     font-size: 1.3em;
     font-weight: 200;
-
 }
 
 footer p:last-of-type {
@@ -292,7 +303,6 @@ footer form input:nth-of-type(4),
 footer form label:nth-of-type(3),
 footer form label:nth-of-type(4) {
     margin-left: 3em;
-
 }
 
 footer form input:focus {
@@ -323,9 +333,7 @@ footer form p:last-of-type {
     letter-spacing: 0;
     position: relative;
     left: 4em;
-
 }
-
 
 /*social icons*/
 footer ul:first-of-type {
@@ -336,13 +344,6 @@ footer ul:first-of-type {
     padding: 1em;
     justify-content: center;
 }
-
-footer ul li img {
-    max-width: 1.5em;
-    max-height: 1.5em;
-    margin: .5em;
-}
-
 
 /*text in footer*/
 footer ul:nth-of-type(2) {
